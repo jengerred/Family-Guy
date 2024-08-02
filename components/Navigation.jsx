@@ -13,6 +13,10 @@ export const Navigation = () => {
   return (
     <div className="sticky top-0 backdrop-blur-xl bg-[rgba(0,0,0,0.8)] border-b border-slate-800 z-50">
       <Container className="flex justify-between py-5" as="nav">
+      <Link href="https://tobiaz-korvin.vercel.app/"
+      className=" mt-2 text-white text-lg font-light">
+          Tobiaz-Korvin
+        </Link>
         <Link href="/">
           <Image src="/logo.png" alt="Family Guy" width={70} height={50} />
         </Link>
@@ -27,3 +31,5 @@ export const Navigation = () => {
     </div>
   )
 }
+
+

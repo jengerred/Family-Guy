@@ -37,7 +37,7 @@ export default async function Page() {
           className="flex items-center justify-center gap-1 px-5 py-4 font-semibold text-orange-500 transition-colors rounded-md outline duration-600 hover:bg-orange-950"
         >
           <TbArrowBigRightFilled className="text-lg" />
-          Take a Quiz Now!
+          Start Quiz!
         </Link>
       </div>
     </Container>
